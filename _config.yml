@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Markus Seidler"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/IMG_O587.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hobby Python Programmer and Data Scientist."
   location         : "Singapore"
   email            :
