@@ -64,7 +64,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="350">
-                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -109,9 +109,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
+    <option name="x" value="6" />
     <option name="y" value="50" />
-    <option name="width" value="1013" />
+    <option name="width" value="1012" />
     <option name="height" value="720" />
   </component>
   <component name="ProjectView">
@@ -468,7 +468,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="350">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
