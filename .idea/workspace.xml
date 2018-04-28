@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-05-05-image-recognition-classic.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_pages/python.md" afterPath="$PROJECT_DIR$/_pages/python.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-05-image-recognition-classic.md" afterPath="$PROJECT_DIR$/_posts/2018-05-05-image-recognition-classic.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,8 +87,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-05-image-recognition-classic.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="682">
-                <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <first_editor relative-caret-position="592">
+                <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -366,8 +364,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-05-image-recognition-classic.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="682">
-            <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <first_editor relative-caret-position="592">
+            <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
             <folding />
           </first_editor>
           <second_editor>

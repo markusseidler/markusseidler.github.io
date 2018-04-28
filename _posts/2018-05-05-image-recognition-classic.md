@@ -48,7 +48,7 @@ Here is some inline code "x+y"
 Hier ist ein Bild
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/
-Image-Recognition-Classic/banana.jpg" alt="banana">
+Image-Recognition-Classic/test.jpg" alt="banana">
 
 
 
