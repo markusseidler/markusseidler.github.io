@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
       <change beforePath="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IRC/fruits.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,8 +63,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="125">
-                <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <first_editor relative-caret-position="350">
+                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -468,8 +467,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="125">
-            <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <first_editor relative-caret-position="350">
+            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
