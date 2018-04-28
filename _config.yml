@@ -99,9 +99,7 @@ analytics:
 author:
   name             : "Markus Seidler"
   avatar           : "/images/IMG_0587.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "How to describe me?
-                      Maybe like this:
-                      ಠ_ಠ"
+  bio              : "How to describe me?              Maybe like this:             ಠ_ಠ"
   location         : "Singapore"
   email            :
   uri              :
