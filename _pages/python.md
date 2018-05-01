@@ -4,7 +4,7 @@ permalink: /python/
 title: "Python Posts by Tags"
 author_profile: True
 header:
-    image: "images/humanoid5.jpg"
+    image: "images/humanoid6.jpg"
 ---
 
 {% include base_path %}
