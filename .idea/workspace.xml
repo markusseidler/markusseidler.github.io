@@ -13,12 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2018-04-28-IRC.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-04-28-IRC.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="581">
-                <caret line="321" lean-forward="true" selection-start-line="321" selection-end-line="321" />
+                <caret line="321" selection-start-line="321" selection-end-line="321" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -27,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="python.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="python.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_pages/python.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -417,11 +417,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
+    <entry file="file://$PROJECT_DIR$/_pages/python.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="581">
-            <caret line="321" lean-forward="true" selection-start-line="321" selection-end-line="321" />
+          <first_editor relative-caret-position="129">
+            <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -429,11 +429,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/python.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="129">
-            <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <first_editor relative-caret-position="581">
+            <caret line="321" selection-start-line="321" selection-end-line="321" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
