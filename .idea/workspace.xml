@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="439">
-                <caret line="381" column="21" lean-forward="true" selection-start-line="381" selection-start-column="21" selection-end-line="381" selection-end-column="21" />
+              <first_editor relative-caret-position="581">
+                <caret line="413" lean-forward="true" selection-start-line="413" selection-end-line="413" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -456,8 +456,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="439">
-            <caret line="381" column="21" lean-forward="true" selection-start-line="381" selection-start-column="21" selection-end-line="381" selection-end-column="21" />
+          <first_editor relative-caret-position="581">
+            <caret line="413" lean-forward="true" selection-start-line="413" selection-end-line="413" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
