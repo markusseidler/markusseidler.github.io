@@ -63,8 +63,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2400">
-                <caret line="154" column="53" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
+              <first_editor relative-caret-position="429">
+                <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -87,6 +87,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>avatar</find>
+      <find>1d</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -467,8 +468,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2400">
-            <caret line="154" column="53" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
+          <first_editor relative-caret-position="429">
+            <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
