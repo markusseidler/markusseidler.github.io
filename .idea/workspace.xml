@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
       <change beforePath="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/formeln.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/formeln2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/humanoid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/humanoid2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/humanoid3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/humanoid4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/humanoid5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/humanoid6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/humanoid7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ml.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="377" column="48" selection-start-line="377" selection-start-column="48" selection-end-line="377" selection-end-column="48" />
+              <first_editor relative-caret-position="439">
+                <caret line="381" column="21" lean-forward="true" selection-start-line="381" selection-start-column="21" selection-end-line="381" selection-end-column="21" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -469,8 +456,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="377" column="48" selection-start-line="377" selection-start-column="48" selection-end-line="377" selection-end-column="48" />
+          <first_editor relative-caret-position="439">
+            <caret line="381" column="21" lean-forward="true" selection-start-line="381" selection-start-column="21" selection-end-line="381" selection-end-column="21" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
