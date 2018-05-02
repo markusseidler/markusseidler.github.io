@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" afterDir="false" />
-    </list>
+    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,21 +15,9 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="16950">
-                <caret line="678" lean-forward="true" selection-start-line="678" selection-end-line="678" />
+              <first_editor relative-caret-position="-465">
+                <caret line="637" column="3" selection-start-line="637" selection-start-column="3" selection-end-line="637" selection-end-column="3" />
               </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISSUE_TEMPLATE.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
               <second_editor>
                 <markdownNavigatorState />
               </second_editor>
@@ -45,6 +31,7 @@
     <findStrings>
       <find>avatar</find>
       <find>1d</find>
+      <find>standard</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,6 +85,12 @@
               <item name="markusseidler.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="markusseidler.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="markusseidler.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="markusseidler.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="head" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="markusseidler.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -445,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-05-image-recognition-classic.md" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -506,6 +492,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head/custom.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/posts-tag.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -516,11 +508,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/posts-category.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/post_pagination.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/tag.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="16950">
-            <caret line="678" lean-forward="true" selection-start-line="678" selection-end-line="678" />
+          <first_editor relative-caret-position="-465">
+            <caret line="637" column="3" selection-start-line="637" selection-start-column="3" selection-end-line="637" selection-end-column="3" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
