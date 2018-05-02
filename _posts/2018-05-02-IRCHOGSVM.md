@@ -22,3 +22,31 @@ learning algorithm to a Support Vector Machine (SVM) and if we pre-process
 the images with a technique called "Histogram of Oriented Gradients" (HOG).
 
 
+## What? Histo ...what?
+
+Well, this needs a bit background. Histogram of Oriented Gradients are
+based on "Image Gradient" calculations. For every pixel, you look at the
+changes in color intensity if you go up or down 1 pixel along the x axis
+and if you go up or down 1 pixel along the y axis. Combining those changes
+gives for each pixel a vector where the angle (degree) is a function of the intensity
+change between x and y. The so-to-speak length of this vector is the
+magnitude of the combined changes of x and y. In math language, an image
+gradient is the vector of its partial derivatives. In other words, how
+does the pixel changes if x and y change.
+
+Histogram of Oriented Gradients is a methodology where for each subset of
+the image, a small window of the total picture, a histogram is calculated.
+This histogram has bins with the magnitude of the various image gradients.
+The allocation of a gradient magnitude ("length of the vector") to a certain
+bin is decided by its degree (angle).
+
+Sounds complicated? It is not easy to understand and needs a bit reading
+and research to imagine the methodolgy. More important is to understand
+that this approach helps to identify edges in an image. It shows the intensity
+of changes from one pixel to another pixel. Edge detection is important when
+image objects like a car or a person in a picture needs to be identified.
+Or fruits?
+
+
+
+
