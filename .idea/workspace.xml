@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="2018-04-28-IRC.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-04-28-IRC.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="175">
-                <caret line="7" column="3" selection-end-line="7" selection-end-column="3" />
+              <first_editor relative-caret-position="196">
+                <caret line="414" column="3" selection-start-line="414" selection-start-column="3" selection-end-line="414" selection-end-column="3" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -27,12 +27,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-05-02-IRCHOGSVM.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-05-02-IRCHOGSVM.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="431">
-                <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+                <caret line="49" selection-start-line="49" selection-end-line="49" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -48,6 +48,7 @@
       <find>avatar</find>
       <find>1d</find>
       <find>standard</find>
+      <find>glu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,8 +66,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.md" />
         <option value="$PROJECT_DIR$/_pages/python.md" />
         <option value="$PROJECT_DIR$/_pages/test.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-04-28-IRC.md" />
       </list>
     </option>
   </component>
@@ -142,13 +143,13 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19547872" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.14529915" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -536,11 +537,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="7" column="3" selection-end-line="7" selection-end-column="3" />
+          <first_editor relative-caret-position="431">
+            <caret line="49" selection-start-line="49" selection-end-line="49" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -548,11 +549,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="431">
-            <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <first_editor relative-caret-position="196">
+            <caret line="414" column="3" selection-start-line="414" selection-start-column="3" selection-end-line="414" selection-end-column="3" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
