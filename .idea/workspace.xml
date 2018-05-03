@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/IRCHOGSVM/transform.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/IRCHOGSVM/transform.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +19,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="346">
-                <caret line="405" lean-forward="true" selection-start-line="403" selection-end-line="405" />
+                <caret line="405" selection-start-line="403" selection-end-line="405" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -31,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="235">
-                <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+              <first_editor relative-caret-position="285">
+                <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -184,7 +185,8 @@
     <MESSAGE value="optimized bio message" />
     <MESSAGE value=" bio message" />
     <MESSAGE value="about2.jpg" />
-    <option name="LAST_COMMIT_MESSAGE" value="about2.jpg" />
+    <MESSAGE value="transform pic changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="transform pic changed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
@@ -542,7 +544,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="346">
-            <caret line="405" lean-forward="true" selection-start-line="403" selection-end-line="405" />
+            <caret line="405" selection-start-line="403" selection-end-line="405" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -553,8 +555,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="235">
-            <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <first_editor relative-caret-position="285">
+            <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
