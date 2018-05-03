@@ -74,7 +74,7 @@ class ImageArray:
         y_kernel = np.array ([[-1, 0, 1]])
         self.transform_x = sig.convolve2d(self.gray(), x_kernel, mode="valid")
         self.transform_y = sig.convolve2d(self.gray(), y_kernel, mode="valid")
-        fig, axes = plt.subplots(nrows=3, ncols=1, figsize=(6,12))
+        fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(12,6))
         axes[1].imshow((self.transform_x+255)/2, cmap="gray")
         axes[1].set_xlabel("X-Axis transformed")
         axes[2].imshow((self.transform_y+255)/2, cmap="gray")
