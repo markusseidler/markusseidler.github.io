@@ -47,6 +47,55 @@ of changes from one pixel to another pixel. Edge detection is important when
 image objects like a car or a person in a picture needs to be identified.
 Or fruits?
 
+How does the result of image gradients look like? Let me demonstrate this
+with a few lines of code. First, I create an object class called ImageArray
+for this purpose. Then, I add methods to transform the picture. Finally, I
+open an instance of this class.
+
+```python
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
+import scipy.signal as sig
+
+class ImageArray:
+
+    def __init__(self, image):
+        self.image = image
+        self.array = np.array(self.image, dtype=np.uint8)
+        self.blue, self.green, self.red = cv2.split(self.image)
+
+    def gray(self):
+        self.image_gray = cv2.cvtColor(self.image, cv2.COLOR_BGR2GRAY)
+        return np.array(self.image_gray)
+
+    def image_gradient(self):
+        x_kernel = np.array([[-1], [0], [1]])
+        y_kernel = np.array ([[-1, 0, 1]])
+        self.transform_x = sig.convolve2d(self.gray(), x_kernel, mode="valid")
+        self.transform_y = sig.convolve2d(self.gray(), y_kernel, mode="valid")
+        fig, axes = plt.subplots(nrows=3, ncols=1, figsize=(6,12))
+        axes[1].imshow((self.transform_x+255)/2, cmap="gray")
+        axes[1].set_xlabel("X-Axis transformed")
+        axes[2].imshow((self.transform_y+255)/2, cmap="gray")
+        axes[2].set_xlabel("Y-Axis transformed")
+        axes[0].imshow(cv2.cvtColor(self.image, cv2.COLOR_BGR2RGB))
+        axes[0].set_xlabel("Original image")
+        fig.savefig("transform.jpg")
+
+
+img = cv2.imread("../dataset/fruits-360/Validation/Banana/108_100.jpg")
+banana_yellow = ImageArray(img)
+
+banana_yellow.image_gradient()
+```
+
+The result are images with edges that are highlighted. A great approach
+to detect objects.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/transform.jpg"
+alt="Edges transformed">
+
 
 
 
