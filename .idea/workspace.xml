@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
       <change beforePath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IRCHOGSVM/dancing_fruits.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/images/IRCHOGSVM/dancing_fruits.mp4" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,9 +30,9 @@
       <file leaf-file-name="2018-05-02-IRCHOGSVM.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="325">
-                <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="556">
+                <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -602,9 +601,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="325">
-            <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="556">
+            <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
