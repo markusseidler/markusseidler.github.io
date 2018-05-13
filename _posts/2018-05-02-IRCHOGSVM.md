@@ -99,13 +99,13 @@ alt="Edges transformed">
 ## Dancing Fruits
 
 I decided to enlarge the training dataset. Originally, I worked with 28,736
-images of 60 different fruits. But how can I make more use of the dataset?
-I want to make it independent from the angle how a banana picture was taken.
+images of 60 different fruits. But how can I strengthen the dataset?
+I want to make it independent from the angle how a picture was taken.
 I take the dataset and let each picture rotate around its axis.
 
 I make use of a library from Adrian Rosebrock. The libary is called imutils
-and include a method called rotate_bound. However, I slighlty modified it as
-in the original version it creates a black background while I changed it that
+and includes a method called "rotate_bound". However, I slighlty modified it.
+In the original version it creates a black background. I changed it that
 it maintains a white background.
 
 This is my script which rotates a fruit 360 degrees and plots the new images.
@@ -147,12 +147,12 @@ print ("\n\tRunning time of script in seconds: \n\t", round(duration,5))
 Have you ever seen fruits dancing? Each picture creates 360 new pictures.
 
 
-<video width="700" height="300" controls="controls">
+<video width="630" height="270" controls="controls">
   <source src="/images/IRCHOGSVM/dancing_fruits.mp4" type="video/mp4">
 </video>
 
 
-When I apply to the training dataset I do not choose an incremental rotation
+When I apply it to the training dataset I do not choose an incremental rotation
 change of one degree but of ten degrees. This allows faster processing and
 provides still a significantly enlarged dataset. In total, I increase my
 training dataset from 28,736 pictures to over 1 million pictures. A dataset

@@ -31,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="556">
-                <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
+              <first_editor relative-caret-position="156">
+                <caret line="149" column="15" lean-forward="true" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="15" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -602,8 +602,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="556">
-            <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
+          <first_editor relative-caret-position="156">
+            <caret line="149" column="15" lean-forward="true" selection-start-line="149" selection-start-column="15" selection-end-line="149" selection-end-column="15" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
