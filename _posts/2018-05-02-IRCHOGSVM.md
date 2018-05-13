@@ -98,4 +98,9 @@ alt="Edges transformed">
 
 
 
+<video width="374" height="236" controls="controls">
+  <source src="/images/IRC/dancing_fruits.mp4" type="video/mp4">
+</video>
+
+
 
