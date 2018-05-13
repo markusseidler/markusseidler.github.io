@@ -96,9 +96,12 @@ to detect objects.
 <img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/transform.jpg"
 alt="Edges transformed">
 
+## Dancing Fruits
 
+I decided to enlarge the training dataset. Originally, I worked with 28,736
+images of 60 different fruits.
 
-<video width="374" height="236" controls="controls">
+<video width="700" height="300" controls="controls">
   <source src="/images/IRCHOGSVM/dancing_fruits.mp4" type="video/mp4">
 </video>
 
