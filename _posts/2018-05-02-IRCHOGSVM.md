@@ -96,6 +96,97 @@ to detect objects.
 <img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/transform.jpg"
 alt="Edges transformed">
 
+We can also display the array with HOG values in a KDE plot. If color changes
+from bright to dark, the values are higher and more concentrated around 0.2.
+On the other hand, changes around bright colors result in values closer to 0.
+
+Here is the code creating the HOG transformation and the plotting the KDE plot.
+
+```python
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+t1 = (cv2.imread("t1.jpg"))
+t2 = (cv2.imread("t2.jpg"))
+t3 = (cv2.imread("t3.jpg"))
+t4 = (cv2.imread("t4.jpg"))
+t5 = (cv2.imread("t5.jpg"))
+
+
+#HOG parameters
+
+#how big is the image?
+winsize = (100, 100)
+
+#moving cells over the image, subset of image
+cellsize = (20, 20)
+
+#block to normalize vectors, to handle illumination, usually 2 x cell size
+blocksize = (20, 20)
+
+#overlap with neighboring cells. Usually 50% of blocksize
+blockstride = (10, 10)
+
+#number of bins of histogram, usually 9
+nbins = 9
+
+#Should the bins go from 0 to 180 degree (unsigned) or 0 to 360 (signed)? Usually unsigned
+signedGradients = False
+
+#no idea what it is but everyone says keep it default, there are not important?
+derivAperture = 1
+winSigma = -1.
+histogramNormType = 0
+L2HysThreshold = 0.2
+gammaCorrection = 1
+nlevels = 64
+
+
+hog = cv2.HOGDescriptor(winsize, cellsize, blocksize, blockstride, nbins, derivAperture, winSigma,
+                        histogramNormType, L2HysThreshold, gammaCorrection, nlevels, signedGradients)
+
+
+image_list = [t1, t2, t3, t4, t5]
+
+
+#designing basic framework of chart plot
+fig, axes = plt.subplots(nrows=len(image_list),ncols=2, figsize = (10,12))
+
+#reiterating through each image
+for i, fruit in zip(range(len(image_list)), image_list):
+    fruit = cv2.resize(fruit, (100,100))
+    fruit = cv2.cvtColor(fruit, cv2.COLOR_BGR2RGB)
+
+    #if right, show image, if left, show KDE plot
+    for j in range(2):
+        if j == 0:
+            axes[i][j].imshow(fruit)
+        if j == 1:
+            fruit = cv2.cvtColor(fruit, cv2.COLOR_RGB2GRAY)
+            fruit_hog = hog.compute(fruit)
+            x = fruit_hog.flatten()
+
+            sns.kdeplot(np.arange(len(x)),x, cmap="BuPu", shade=True, ax=axes[i][j])
+            axes[i][j].set_xlim(-50, len(fruit_hog)+50)
+            axes[i][j].set_ylim(0, 0.4)
+
+#labelling plots and axes
+axes[0][0].set_title("Original fruit image")
+axes[len(image_list)-1][0].set_xlabel("Pixel")
+axes[0][1].set_title("KDE plot of Image HOG")
+axes[len(image_list)-1][1].set_xlabel("HOG array")
+
+fig.savefig("KDE_HOG1.jpg")
+```
+
+How does it look like? Here we go...
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/KDE_HOG1.jpg"
+alt="Edges transformed">
+
+
 ## Dancing Fruits
 
 I decided to enlarge the training dataset. Originally, I worked with 28,736
