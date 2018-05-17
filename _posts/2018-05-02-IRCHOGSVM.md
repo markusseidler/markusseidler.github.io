@@ -2,7 +2,7 @@
 title: "Image Classification of Fruits with Support Vector Machine and
 Histogram of Oriented Gradients"
 date: 2018-05-05
-tags: [machine learning, support vector machine, image recognition]
+tags: [machine learning, support vector machine, image classification]
 header:
     image: "images/IRCHOGSVM/still.jpg"
 excerpt: "Classifying fruits with SVM and HOG"
