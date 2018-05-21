@@ -121,13 +121,13 @@ t5 = (cv2.imread("t5.jpg"))
 winsize = (100, 100)
 
 #moving cells over the image, subset of image
-cellsize = (20, 20)
+cellsize = (10, 10)
 
-#block to normalize vectors, to handle illumination, usually 2 x cell size
-blocksize = (20, 20)
+#block to normalize vectors, to handle illumination
+blocksize = (10, 10)
 
-#overlap with neighboring cells. Usually 50% of blocksize
-blockstride = (10, 10)
+#overlap with neighboring cells, usually 50% of blocksize
+blockstride = (5, 5)
 
 #number of bins of histogram, usually 9
 nbins = 9
@@ -170,7 +170,7 @@ for i, fruit in zip(range(len(image_list)), image_list):
 
             sns.kdeplot(np.arange(len(x)),x, cmap="BuPu", shade=True, ax=axes[i][j])
             axes[i][j].set_xlim(-50, len(fruit_hog)+50)
-            axes[i][j].set_ylim(0, 0.4)
+            axes[i][j].set_ylim(0, 0.1)
 
 #labelling plots and axes
 axes[0][0].set_title("Original fruit image")
@@ -186,6 +186,11 @@ How does it look like? Here we go...
 <img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/KDE_HOG1.jpg"
 alt="Edges transformed">
 
+This is a very colorful way to visualize it but perhaps not the most intuitive one.
+Image gradients consist of vectors and their length and direction are indication for
+the magnitude of changes. Maybe, we should also try to show it as a series of vectors.
+Similiar to the previous KDE plot, I am building up a matplotlib figure with
+multiple axis.
 
 ## Dancing Fruits
 
