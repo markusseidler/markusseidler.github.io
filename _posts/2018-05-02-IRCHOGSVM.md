@@ -113,7 +113,9 @@ t2 = (cv2.imread("t2.jpg"))
 t3 = (cv2.imread("t3.jpg"))
 t4 = (cv2.imread("t4.jpg"))
 t5 = (cv2.imread("t5.jpg"))
-
+t6 = (cv2.imread("t6.jpg"))
+t7 = (cv2.imread("t7.jpg"))
+t8 = (cv2.imread("t8.jpg"))
 
 #HOG parameters
 
@@ -148,11 +150,11 @@ hog = cv2.HOGDescriptor(winsize, cellsize, blocksize, blockstride, nbins, derivA
                         histogramNormType, L2HysThreshold, gammaCorrection, nlevels, signedGradients)
 
 
-image_list = [t1, t2, t3, t4, t5]
+image_list = [t1, t2, t3, t4, t5, t6, t7, t8]
 
 
 #designing basic framework of chart plot
-fig, axes = plt.subplots(nrows=len(image_list),ncols=2, figsize = (10,12))
+fig, axes = plt.subplots(nrows=len(image_list),ncols=2, figsize = (10,20))
 
 #reiterating through each image
 for i, fruit in zip(range(len(image_list)), image_list):
@@ -178,19 +180,91 @@ axes[len(image_list)-1][0].set_xlabel("Pixel")
 axes[0][1].set_title("KDE plot of Image HOG")
 axes[len(image_list)-1][1].set_xlabel("HOG array")
 
-fig.savefig("KDE_HOG1.jpg")
+fig.savefig("KDE_HOG.jpg")
 ```
 
 How does it look like? Here we go...
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/KDE_HOG1.jpg"
-alt="Edges transformed">
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/KDE_HOG.jpg"
+alt="KDE HOG">
 
 This is a very colorful way to visualize it but perhaps not the most intuitive one.
-Image gradients consist of vectors and their length and direction are indication for
-the magnitude of changes. Maybe, we should also try to show it as a series of vectors.
-Similiar to the previous KDE plot, I am building up a matplotlib figure with
-multiple axis.
+Furthermore, looking at the various banana images, the background is a
+significant attribute of the picture. Ideally, we can find something that
+is less sensitive to the background color.
+
+Bascially, image gradients consist of vectors and their length and direction
+are indication for the magnitude of changes. Maybe, we should also try to
+show it as a series of vectors. Similiar to the previous KDE plot, I am
+building up a matplotlib figure with multiple axis.
+
+```python
+import matplotlib.pyplot as plt
+import cv2
+from skimage.feature import hog
+from skimage import exposure
+
+t1 = (cv2.imread("t1.jpg"))
+t2 = (cv2.imread("t2.jpg"))
+t3 = (cv2.imread("t3.jpg"))
+t4 = (cv2.imread("t4.jpg"))
+t5 = (cv2.imread("t5.jpg"))
+t6 = (cv2.imread("t6.jpg"))
+t7 = (cv2.imread("t7.jpg"))
+t8 = (cv2.imread("t8.jpg"))
+
+
+image_list = [t1, t2, t3, t4, t5, t6, t7, t8]
+
+#designing basic framework of chart plot
+fig, axes = plt.subplots(nrows=len(image_list),ncols=2, figsize = (10,20))
+
+#reiterating through each image
+for i, fruit in zip(range(len(image_list)), image_list):
+    fruit = cv2.resize(fruit, (100,100))
+    fruit = cv2.cvtColor(fruit, cv2.COLOR_BGR2RGB)
+
+    #if right, show image, if left, show KDE plot
+    for j in range(2):
+        if j == 0:
+            axes[i][j].imshow(fruit)
+        if j == 1:
+            fruit = cv2.cvtColor(fruit, cv2.COLOR_RGB2GRAY)
+            fd, hog_image = hog (fruit,
+                    orientations=9,
+                    pixels_per_cell=(8,8),
+                    cells_per_block=(3,3),
+                    visualise=True,
+                    block_norm="L2-Hys")
+
+            #increasing the intensity values of the image
+            hog_image_resc = exposure.rescale_intensity(hog_image, in_range=(0,3))
+
+            axes[i][j].imshow(hog_image_resc, cmap=plt.cm.gray)
+
+#labelling plots and axes
+axes[0][0].set_title("Original fruit image")
+axes[len(image_list)-1][0].set_xlabel("Pixel")
+axes[0][1].set_title("Visualization of HOG")
+axes[len(image_list)-1][1].set_xlabel("HOG array")
+
+fig.savefig("Visualize_HOG.jpg")
+```
+
+This time I also use a library called skimage. With the help of this library,
+I can calculate the HOG descriptor and also visualize it through the plot of
+matplotlib.
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/Visualize_HOG.jpg"
+alt="Visualize HOG">
+
+We can clearly see the edges of the fruits. Furthermore, unlike in the
+previous KDE plot, the background seems to be less significant. Important
+is the change in color intensity from one pixel to another.
+
+
+
 
 ## Dancing Fruits
 
