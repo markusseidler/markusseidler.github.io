@@ -2,6 +2,8 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Study"
+    url: /study/
   - title: "Python"
     url: /python/
   # - title: "About"
