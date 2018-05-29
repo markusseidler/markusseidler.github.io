@@ -9,17 +9,17 @@ I thought it is a good idea to track the courses and classes I took on
 my journey of Python and Machine Learning. Perhaps, it gives you some
 hints for your own journey.
 
-##General Assembly Singapore
+## General Assembly Singapore
 
 Data Science program (10 weeks)
 Bootcamp: Fundamentals of Python
 HTML and CSS workshop
 
-##Tertiary Courses Singapore
+# Tertiary Courses Singapore
 
 Python 3 Essential Training
 
-##Udemy online
+# Udemy online
 
     Python Bootcamp: Vom Anfänger zum Profi
     The Python Bible
