@@ -49,7 +49,7 @@ hints for your own journey.
 
 <ul>
     <li>Python Bootcamp: Vom Anfänger zum Profi</li>
-    <li>The Python Bible</li>
+    <li>The Python Bible: Everything you need to know</li>
     <li>The Python Mega Course: Build 10 Real World Applications</li>
     <li>Python for Data Science and Machine Learning</li>
     <li>Master Computer Vision: OpenCV3 in Python and Machine Learning</li>
