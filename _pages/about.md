@@ -33,9 +33,11 @@ hints for your own journey.
 
 ### General Assembly Singapore
 
-Data Science program (10 weeks)
-Bootcamp: Fundamentals of Python
-HTML and CSS workshop
+<ul>
+    <li>Data Science program (10 weeks)</li>
+    <li>Bootcamp: Fundamentals of Python</li>
+    <li>HTML and CSS workshop</li>
+</ul>
 
 ### Tertiary Courses Singapore
 
