@@ -41,29 +41,38 @@ hints for your own journey.
 
 ### Tertiary Courses Singapore
 
-Python 3 Essential Training
+<ul>
+    <li>Python 3 Essential Training</li>
+</ul>
 
 ### Udemy online
 
-Python Bootcamp: Vom Anfänger zum Profi
-The Python Bible
-The Python Mega Course: Build 10 Real World Applications
-Python for Data Science and Machine Learning
-Master Computer Vision: OpenCV3 in Python and Machine Learning
-Python Object Oriented Programming Fundamentals
+<ul>
+    <li>Python Bootcamp: Vom Anfänger zum Profi</li>
+    <li>The Python Bible</li>
+    <li>The Python Mega Course: Build 10 Real World Applications</li>
+    <li>Python for Data Science and Machine Learning</li>
+    <li>Master Computer Vision: OpenCV3 in Python and Machine Learning</li>
+    <li>Python Object Oriented Programming Fundamentals</li>
+</ul>
 
 ### Books
 
-Learn Python 3 the Hard Way
-Learn More Python 3 the Hard Way
+<ul>
+    <li>Learn Python 3 the Hard Way</li>
+    <li>Learn More Python 3 the Hard Way</li>
+</ul>
 
 ### Free online resources
 
-Stanford University: Convolutional Neural Networks (16 lectures)
-Khan Academy: Lecture series about Matrices
-Khan Academy: Lecture series about Vectors
-Brandon Rohrer: CNN and Deep Learning
-Sentdex: Python Basics, Matplotlib, Numpy, Pandas, Scikit-learn
+<ul>
+    <li>Stanford University: Convolutional Neural Networks (16 lectures)</li>
+    <li>Khan Academy: Lecture series about Matrices</li>
+    <li>Khan Academy: Lecture series about Vectors</li>
+    <li>Brandon Rohrer: CNN and Deep Learning</li>
+    <li>Sentdex: Python Basics, Matplotlib, Numpy, Pandas, Scikit-learn</li>
+</ul>
+
 
 
 
