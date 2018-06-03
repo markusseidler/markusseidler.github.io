@@ -528,7 +528,7 @@ results. Better results than the Random Forest on a dataset with out rotations.
 In comparison, the Random Forest Classifier achieved an accuracy ratio of 88%
 with 55 Estimators and the calculation took 77 seconds.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/disappointed.PNG"
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/disappointed.JPG"
 alt="Disappointed">
 
 
