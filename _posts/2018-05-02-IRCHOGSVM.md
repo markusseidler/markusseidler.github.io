@@ -334,12 +334,172 @@ One of the important hyperparameters when using Support Vector Machines
 is the so-called "Penalty parameter of the error term" C. It manages
 the tolerance of SVM in handling misclassification errors. Training this
 dataset of 260,000 images with a SVM is computationally very expensive and
-could take one day of processing. Therefore, I will use a smaller dataset first
-to find the optimal hyperparameter C before I let the machine learning
-algorithm train the full dataset.
+could take a few hours to one day of processing. Therefore, I will use a
+smaller dataset first to find the optimal hyperparameter C before I let
+the machine learning algorithm train the full dataset.
+
+I choose a subset of my training set. I selected seven fruits out of those
+60 fruits. Then I changed it to gray-scale and let those pictures
+rotate in steps of 45 degrees. In total, I used a dataset of 30,762 images.
+Subsequently, I also reduce the validation set to those seven fruits and
+validated the training algorithm on a set of 1,143 images.
+
+This is the full code including the HOG descriptor. This time I also saved
+my models with joblib and the dictionary of fruits with pickle.
+
+```python
+import os
+import glob
+import cv2
+import numpy as np
+from timeit import default_timer as timer
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score
+from sklearn.externals import joblib
+import pickle
+import pandas as pd
+
+training_folder = ("../DataSet/fruits-360/small_train/*")
+validation_folder = ("../DataSet/fruits-360/small_val/*")
+
+start = timer()
+
+#creating empty lists, dictionaries and variables
+X_fruit_arrays = []
+y_fruit_ID = []
+
+name_dictionary = {}
+
+X_fruit_arrays_val = []
+y_fruit_ID_val = []
+name_dictionary_val = {}
+
+c_range = [1,3,5,8,10,15,20,25,30,40,50,100]
+accuracy = []
+duration = []
+
+count = 0
+count2 = 0
+count3 = 0
+count4 = 0
+
+#HOG parameters
+
+#how big is the image?
+winsize = (100, 100)
+
+#moving cells over the image, subset of image
+cellsize = (20, 20)
+
+#block to normalize vectors, to handle illumination, usually 2 x cell size
+blocksize = (20, 20)
+
+#overlap with neighboring cells. Usually 50% of blocksize
+blockstride = (10, 10)
+
+#number of bins of histogram, usually 9
+nbins = 9
+
+#Should the bins go from 0 to 180 degree (unsigned) or 0 to 360 (signed)? Usually unsigned
+signedGradients = False
+
+#no idea what it is but everyone says keep it default, there are not important?
+derivAperture = 1
+winSigma = -1.
+histogramNormType = 0
+L2HysThreshold = 0.2
+gammaCorrection = 1
+nlevels = 64
 
 
+hog = cv2.HOGDescriptor(winsize, cellsize, blocksize, blockstride, nbins, derivAperture, winSigma,
+                        histogramNormType, L2HysThreshold, gammaCorrection, nlevels, signedGradients)
 
 
+for path in glob.glob(training_folder):
+    path_split = path.split("/") [-1]
+    name_dictionary[count] = path_split.split("\\")[-1]
+    for pic in glob.glob (os.path.join(path,"*.jpg")):
 
+        image = cv2.imread(pic,0)
+        image = cv2.resize(image, (100,100))
+        print ("Pic Name ", pic, " Count ", count3)
+        count3 +=1
+        hog_descriptor = hog.compute (image)
+        X_fruit_arrays.append(hog_descriptor)
+        y_fruit_ID.append(count)
+
+    count += 1
+
+X_fruit_arrays = np.array(X_fruit_arrays)
+y_fruit_ID = np.array(y_fruit_ID)
+
+x = set(y_fruit_ID)
+
+X_fruit_arrays = X_fruit_arrays.reshape(-1,900)
+
+
+for path in glob.glob(validation_folder):
+    path_split = path.split("/") [-1]
+    name_dictionary_val[count2] = path_split.split("\\")[-1]
+    for pic in glob.glob (os.path.join(path,"*.jpg")):
+        image = cv2.imread(pic,0)
+        image = cv2.resize(image, (100,100))
+        print ("Pic Name ", pic, " Count ", count4)
+        count4 += 1
+        hog_descriptor = hog.compute (image)
+        X_fruit_arrays_val.append(hog_descriptor)
+        y_fruit_ID_val.append(count2)
+
+    count2 += 1
+
+X_fruit_arrays_val = np.array(X_fruit_arrays_val)
+y_fruit_ID_val = np.array(y_fruit_ID_val)
+X_fruit_arrays_val = X_fruit_arrays_val.reshape(-1,900)
+
+
+c_range = [1,3,5,8,10,15,20,25,30,40,50,100]
+accuracy = []
+duration = []
+
+for c in c_range:
+    start2 = timer()
+    svm = SVC(C=c)
+    svm.fit(X_fruit_arrays, y_fruit_ID)
+
+    test_predictions_val = svm.predict(X_fruit_arrays_val)
+    precision = accuracy_score(y_fruit_ID_val,test_predictions_val)*100
+    accuracy.append(round(precision,5))
+
+    filename = ("C_{}_number_of_fruits_{}_number_of_pics_{}.sav".format(c, count, count3))
+    joblib.dump(svm, filename)
+    print ("File ", filename," saved." )
+    end2=timer()
+    dur = round (end2-start2,2)
+    print (precision)
+    print (dur)
+    duration.append(dur)
+
+acc_df = pd.DataFrame()
+acc_df ["C"] = c_range
+acc_df ["Accuracy"] = accuracy
+acc_df ["Duration"] = duration
+
+print (acc_df)
+#
+with open ("name_dictionary_small.pickle", "wb") as file:
+    pickle.dump(name_dictionary, file)
+    print ("Pickle saved.")
+
+end = timer()
+duration = end - start
+print ("\n\tRunning time of script in seconds: \n\t", round(duration,5))
+```
+
+I reiterated the Support Vector Machine Classifier (SVC) through a list
+of different penalty parameter C. The result shows that the accuracy ratio
+increases up to a C of around 20.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/SVM C variation.PNG"
+alt="SVM C variation">
 
