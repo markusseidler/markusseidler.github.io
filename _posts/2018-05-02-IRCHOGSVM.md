@@ -338,10 +338,10 @@ could take a few hours to one day of processing. Therefore, I will use a
 smaller dataset first to find the optimal hyperparameter C before I let
 the machine learning algorithm train the full dataset.
 
-I choose a subset of my training set. I selected seven fruits out of those
+I chose a subset of my training set. I selected seven fruits out of those
 60 fruits. Then I changed it to gray-scale and let those pictures
 rotate in steps of 45 degrees. In total, I used a dataset of 30,762 images.
-Subsequently, I also reduce the validation set to those seven fruits and
+Subsequently, I also reduced the validation set to those seven fruits and
 validated the training algorithm on a set of 1,143 images.
 
 This is the full code including the HOG descriptor. This time I also saved
@@ -502,4 +502,33 @@ increases up to a C of around 20.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/SVM C variation.PNG"
 alt="SVM C variation">
+
+Based on these results, I decided to use C of 20 for the test with the full
+data set.
+
+## SVM in full action
+
+This time I used the full data set of 60 fruits. Including the rotations of
+images I did earlier, I had a training set of 258,625 images. I validated the
+algorithm on the original validation set of 9,673 images.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/SVM full accuracy.PNG"
+alt="SVM full accuracy">
+
+The accuracy ratio was 82.8%. It was computionally expensive training for
+the machine learning algorithm. It took 21,665 seconds. Six hours of CPU
+calculations to process the Support Vector Machine.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/SVM full running time.PNG"
+alt="SVM full running time">
+
+Honestly, I was a bit disappointed when I saw the result after one night of
+computer processing. I thought the HOG/SVM combination will deliver better
+results. Better results than the Random Forest on a dataset with out rotations.
+In comparison, the Random Forest Classifier achieved an accuracy ratio of 88%
+with 55 Estimators and the calculation took 77 seconds.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/disappointed.PNG"
+alt="Disappointed">
+
 
