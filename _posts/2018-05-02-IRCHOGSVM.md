@@ -528,7 +528,13 @@ results. Better results than the Random Forest on a dataset with out rotations.
 In comparison, the Random Forest Classifier achieved an accuracy ratio of 88%
 with 55 Estimators and the calculation took 77 seconds.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/disappointed.JPG"
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/disappointed.jpg"
 alt="Disappointed">
+
+Certainly, I was not happy with the result and I wanted to understand better
+where the algorithm failed. Luckily, I saved the model as joblib and could
+retrieve it any time. Let's look first the classification report. Maybe, we see
+better the weakness of the model when we look at the results fruit by fruit.
+
 
 
