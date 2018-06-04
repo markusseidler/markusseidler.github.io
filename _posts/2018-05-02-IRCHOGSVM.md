@@ -552,5 +552,122 @@ Interestingly, the Random Forest Classifier in the previous post was strong
 in classifying Clementine (F1: 91%) and Avocado (91%) but also failed in
 identifying correctly "Red Bananas".
 
+Let's have a look at some examples. This the full set of code to produce
+this plot of images and HOG visualizations.
 
+```python
+import matplotlib.pyplot as plt
+import cv2
+from skimage.feature import hog
+from skimage import exposure
+import numpy as np
+import seaborn as sns
+
+files = {1:"cherry.jpg",
+         2:"grape_white.jpg",
+         3:"grape_white2.jpg",
+         4:"grapefruit_pink.jpg",
+         5:"grapefruit_white.jpg",
+         6:"clementine.jpg",
+         7:"banana_yellow.jpg",
+         8:"banana_red.jpg"
+         }
+
+t1 = cv2.imread(files[1])
+t2 = cv2.imread(files[2])
+t3 = cv2.imread(files[3])
+t4 = cv2.imread(files[4])
+t5 = cv2.imread(files[5])
+t6 = cv2.imread(files[6])
+t7 = cv2.imread(files[7])
+t8 = cv2.imread(files[8])
+
+image_list = [t1, t2, t3, t4, t5, t6, t7, t8]
+
+#HOG parameters
+winsize = (100, 100)
+cellsize = (10, 10)
+blocksize = (10, 10)
+blockstride = (5, 5)
+nbins = 9
+signedGradients = False
+derivAperture = 1
+winSigma = -1.
+histogramNormType = 0
+L2HysThreshold = 0.2
+gammaCorrection = 1
+nlevels = 64
+
+hog_desc = cv2.HOGDescriptor(winsize, cellsize, blocksize, blockstride, nbins, derivAperture, winSigma,
+                        histogramNormType, L2HysThreshold, gammaCorrection, nlevels, signedGradients)
+
+
+#designing basic framework of chart plot
+fig, axes = plt.subplots(nrows=len(image_list),ncols=3, figsize = (10,18))
+
+#reiterating through each image
+for i, fruit in zip(range(len(image_list)), image_list):
+    fruit = cv2.resize(fruit, (100,100))
+    fruit = cv2.cvtColor(fruit, cv2.COLOR_BGR2RGB)
+
+    #if right, show image, if left, show KDE plot
+    for j in range(3):
+        if j == 0:
+            axes[i][j].imshow(fruit)
+            axes[i][j].set_title(files[i+1])
+
+        if j == 1:
+            fruit2 = cv2.cvtColor(fruit, cv2.COLOR_RGB2GRAY)
+            fd, hog_image = hog (fruit2,
+                    orientations=9,
+                    pixels_per_cell=(8,8),
+                    cells_per_block=(3,3),
+                    visualise=True,
+                    block_norm="L2-Hys")
+
+            hog_image_resc = exposure.rescale_intensity(hog_image, in_range=(0,3))
+
+            axes[i][j].imshow(hog_image_resc, cmap=plt.cm.gray)
+
+        if j == 2:
+            fruit3 = cv2.cvtColor(fruit, cv2.COLOR_RGB2GRAY)
+            fruit_hog = hog_desc.compute(fruit3)
+            x = fruit_hog.flatten()
+
+            sns.kdeplot(np.arange(len(x)),x, cmap="BuPu", shade=True, ax=axes[i][j])
+            axes[i][j].set_xlim(-50, len(fruit_hog)+50)
+            axes[i][j].set_ylim(0, 0.1)
+
+#labelling plots and axes
+axes[len(image_list)-1][0].set_xlabel("Pixel")
+axes[0][1].set_title("Visualization of HOG")
+axes[len(image_list)-1][1].set_xlabel("HOG array")
+axes[0][1].set_title("KDE plot of Image HOG")
+axes[len(image_list)-1][1].set_xlabel("HOG array")
+
+plt.tight_layout()
+
+fig.savefig("ColorKDE_with_HOG.jpg")
+```
+
+
+For the first five fruits, cherry to grapefruit white, the machine learning
+algorithm achieved high accuracy ratios. As mentioned before, the ratios
+were ranging between 94 and 100% when testing it on the validation set.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/ColorKDE_with_HOG.jpg"
+alt="ColorKDE with HOG">
+
+However, "Clementine" and "Banana Red" could not achieved only correct
+classification of around 2/3. I assume that the proximity of Clementines to
+other fruits as well as the missing intensity of features for Bananas make
+it difficult to perform well.
+
+Well, perhaps, it is time to progress further in my journey. Perhaps, it is
+time to start the real fun...
+
+Perhaps, it is time to play with Neural Networks...
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/NN.jpg"
+alt="Neurons">
 
