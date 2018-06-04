@@ -154,7 +154,7 @@ image_list = [t1, t2, t3, t4, t5, t6, t7, t8]
 
 
 #designing basic framework of chart plot
-fig, axes = plt.subplots(nrows=len(image_list),ncols=2, figsize = (10,20))
+fig, axes = plt.subplots(nrows=len(image_list),ncols=2, figsize = (10,18))
 
 #reiterating through each image
 for i, fruit in zip(range(len(image_list)), image_list):
@@ -179,6 +179,8 @@ axes[0][0].set_title("Original fruit image")
 axes[len(image_list)-1][0].set_xlabel("Pixel")
 axes[0][1].set_title("KDE plot of Image HOG")
 axes[len(image_list)-1][1].set_xlabel("HOG array")
+
+plt.tight_layout()
 
 fig.savefig("KDE_HOG.jpg")
 ```
@@ -217,7 +219,7 @@ t8 = (cv2.imread("t8.jpg"))
 image_list = [t1, t2, t3, t4, t5, t6, t7, t8]
 
 #designing basic framework of chart plot
-fig, axes = plt.subplots(nrows=len(image_list),ncols=2, figsize = (10,20))
+fig, axes = plt.subplots(nrows=len(image_list),ncols=2, figsize = (10,18))
 
 #reiterating through each image
 for i, fruit in zip(range(len(image_list)), image_list):
@@ -247,6 +249,8 @@ axes[0][0].set_title("Original fruit image")
 axes[len(image_list)-1][0].set_xlabel("Pixel")
 axes[0][1].set_title("Visualization of HOG")
 axes[len(image_list)-1][1].set_xlabel("HOG array")
+
+plt.tight_layout()
 
 fig.savefig("Visualize_HOG.jpg")
 ```
