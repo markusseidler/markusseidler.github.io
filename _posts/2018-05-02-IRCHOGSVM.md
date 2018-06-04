@@ -655,8 +655,9 @@ For the first five fruits, cherry to grapefruit white, the machine learning
 algorithm achieved high accuracy ratios. As mentioned before, the ratios
 were ranging between 94 and 100% when testing it on the validation set.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/ColorKDE_with_HOG.jpg"
-alt="ColorKDE with HOG">
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/CKDE.jpg"
+alt="CKDE">
+
 
 However, "Clementine" and "Banana Red" could not achieved only correct
 classification of around 2/3. I assume that the proximity of Clementines to
