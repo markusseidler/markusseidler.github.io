@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
       <change beforePath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IRCHOGSVM/disappointed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/IRCHOGSVM/disappointed.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IRCHOGSVM/name_dictionary.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/IRCHOGSVM/name_dictionary.PNG" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="581">
-                <caret line="670" lean-forward="true" selection-start-line="670" selection-end-line="670" />
+              <first_editor relative-caret-position="550">
+                <caret line="670" column="62" selection-start-line="670" selection-start-column="62" selection-end-line="670" selection-end-column="62" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -712,8 +710,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="581">
-            <caret line="670" lean-forward="true" selection-start-line="670" selection-end-line="670" />
+          <first_editor relative-caret-position="550">
+            <caret line="670" column="62" selection-start-line="670" selection-start-column="62" selection-end-line="670" selection-end-column="62" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

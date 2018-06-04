@@ -668,6 +668,6 @@ time to start the real fun...
 
 Perhaps, it is time to play with Neural Networks...
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/NN.jpg"
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/nn.jpg"
 alt="Neurons">
 
