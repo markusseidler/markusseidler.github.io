@@ -659,8 +659,8 @@ were ranging between 94 and 100% when testing it on the validation set.
 alt="CKDE">
 
 
-However, "Clementine" and "Banana Red" could not achieved only correct
-classification of around 2/3. I assume that the proximity of Clementines to
+However, "Clementine" and "Banana Red" could only achieve correct
+classifications of around 2/3. I assume that the proximity of Clementines to
 other fruits as well as the missing intensity of features for Bananas make
 it difficult to perform well.
 

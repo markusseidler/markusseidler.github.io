@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg" />
+    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="225">
-                <caret line="657" column="77" selection-start-line="657" selection-start-column="77" selection-end-line="657" selection-end-column="77" />
+              <first_editor relative-caret-position="335">
+                <caret line="666" column="67" lean-forward="true" selection-start-line="666" selection-start-column="67" selection-end-line="666" selection-end-column="67" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -708,8 +710,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="225">
-            <caret line="657" column="77" selection-start-line="657" selection-start-column="77" selection-end-line="657" selection-end-column="77" />
+          <first_editor relative-caret-position="335">
+            <caret line="666" column="67" lean-forward="true" selection-start-line="666" selection-start-column="67" selection-end-line="666" selection-end-column="67" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
