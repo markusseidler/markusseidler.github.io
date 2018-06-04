@@ -515,7 +515,7 @@ algorithm on the original validation set of 9,673 images.
 <img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/SVM full accuracy.PNG"
 alt="SVM full accuracy">
 
-The accuracy ratio was 82.8%. It was computionally expensive training for
+The accuracy ratio was 82.8%. It was a computionally expensive training for
 the machine learning algorithm. It took 21,665 seconds. Six hours of CPU
 calculations to process the Support Vector Machine.
 
@@ -531,10 +531,26 @@ with 55 Estimators and the calculation took 77 seconds.
 <img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/disappointed.jpg"
 alt="Disappointed">
 
-Certainly, I was not happy with the result and I wanted to understand better
+Certainly, I was not too happy with the result and I wanted to understand better
 where the algorithm failed. Luckily, I saved the model as joblib and could
-retrieve it any time. Let's look first the classification report. Maybe, we see
-better the weakness of the model when we look at the results fruit by fruit.
+retrieve it any time. Let's look first at the classification report. Maybe,
+we see better the weakness of the model when we look at the results fruit by fruit.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/name_dictionary.PNG"
+alt="Name Dict">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/classification_report.PNG"
+alt="Class Rep">
+
+Looking at the first half of the classification report shows that the SVM
+classifier performed very well in class 17 (Cherry), 23 (Grape White),
+24 (Grape White 2), 25 (Grapefruit Pink), 26 (Grapefruit White), and
+28 (Huckleberry). However, it failed miserably in classes such as 14 (Banana Red),
+18 (Clementine), and 11 (Avocado).
+
+Interestingly, the Random Forest Classifier in the previous post was strong
+in classifying Clementine (F1: 91%) and Avocado (91%) but also failed in
+identifying correctly "Red Bananas".
 
 
 
