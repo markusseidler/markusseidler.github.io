@@ -58,7 +58,7 @@ import cv2
 import matplotlib.pyplot as plt
 import scipy.signal as sig
 
-class ImageArray:
+class ImageArray (object):
 
     def __init__(self, image):
         self.image = image
