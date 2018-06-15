@@ -326,9 +326,9 @@ Have you ever seen fruits dancing? Each picture creates 360 new pictures.
 </video>
 
 
-When I apply it to the training dataset I do not choose an incremental rotation
+When I applied it to the training dataset I did not choose an incremental rotation
 change of one degree but of 45 degrees. This allows faster processing and
-provides still a significantly enlarged dataset. In total, I increase my
+provides still a significantly enlarged dataset. In total, I increased my
 training dataset from 28,736 pictures to almost 260,000 pictures. A dataset
 with over 2.5 billion of numbers of gray intensity.
 
@@ -338,7 +338,7 @@ One of the important hyperparameters when using Support Vector Machines
 is the so-called "Penalty parameter of the error term" C. It manages
 the tolerance of SVM in handling misclassification errors. Training this
 dataset of 260,000 images with a SVM is computationally very expensive and
-could take a few hours to one day of processing. Therefore, I will use a
+could take a few hours to one day of processing. Therefore, I used a
 smaller dataset first to find the optimal hyperparameter C before I let
 the machine learning algorithm train the full dataset.
 

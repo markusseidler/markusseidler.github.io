@@ -7,13 +7,13 @@ header:
 
 I am just myself on this page. Curious and restless.
 
-I love to explore the world by searching for problems. Being the outlier to see the unusual.
-
-And understanding the main to bring unusual and usual together.
+I love to explore the world by searching for problems. Being the outlier
+to see the unusual. Like the abnormality and understand the main
+to bring unusual and usual together.
 
 Manoeuvre between the forces.
 
-纵横捭阖.
+### 纵横捭阖.
 
 Long time ago, someone gave me the Chinese name... 捭阖.
 
@@ -54,6 +54,7 @@ hints for your own journey.
     <li>Python for Data Science and Machine Learning</li>
     <li>Master Computer Vision: OpenCV3 in Python and Machine Learning</li>
     <li>Python Object Oriented Programming Fundamentals</li>
+    <li>Deep Learning A-Z: Hands on Artificial Neural Networks</li>
 </ul>
 
 ### Books
