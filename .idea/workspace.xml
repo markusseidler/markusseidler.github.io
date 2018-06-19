@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +18,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="56">
-                <caret line="506" lean-forward="true" selection-start-line="506" selection-end-line="507" selection-end-column="22" />
+                <caret line="506" selection-start-line="506" selection-end-line="507" selection-end-column="22" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -34,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="435">
-                <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+              <first_editor relative-caret-position="381">
+                <caret line="112" selection-start-line="112" selection-end-line="112" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -650,7 +647,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="56">
-            <caret line="506" lean-forward="true" selection-start-line="506" selection-end-line="507" selection-end-column="22" />
+            <caret line="506" selection-start-line="506" selection-end-line="507" selection-end-column="22" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -661,8 +658,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+          <first_editor relative-caret-position="381">
+            <caret line="112" selection-start-line="112" selection-end-line="112" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
