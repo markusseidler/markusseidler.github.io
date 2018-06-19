@@ -13,7 +13,8 @@ to bring unusual and usual together.
 
 Manoeuvre between the forces.
 
-### 纵横捭阖.
+## 纵横捭阖
+
 
 Long time ago, someone gave me the Chinese name... 捭阖.
 
