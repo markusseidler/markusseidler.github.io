@@ -43,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="531">
-                <caret line="158" selection-start-line="158" selection-end-line="158" />
+              <first_editor relative-caret-position="581">
+                <caret line="297" column="38" selection-start-line="297" selection-start-column="38" selection-end-line="297" selection-end-column="38" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -670,8 +670,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="531">
-            <caret line="158" selection-start-line="158" selection-end-line="158" />
+          <first_editor relative-caret-position="581">
+            <caret line="297" column="38" selection-start-line="297" selection-start-column="38" selection-end-line="297" selection-end-column="38" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
