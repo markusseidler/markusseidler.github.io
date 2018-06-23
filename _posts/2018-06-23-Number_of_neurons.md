@@ -8,7 +8,7 @@ excerpt: "What is the right number of neurons?."
 ---
 
 
-## How to improve the ANN?
+## How to improve my first ANN?
 
 While the weights are optimized by training the network, there are a few
 hyperparameters which needs to set at the beginning. Creating a neural network
