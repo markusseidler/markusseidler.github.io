@@ -95,9 +95,14 @@ Let's run it...
   <source src="/images/NON/main_py_non.mp4" type="video/mp4">
 </video>
 
+
 400,000 neural networks with multliple layers and neurons, forward and backpropagation,
-and all in just 30 seconds. I am still working only with the CPU. Just impressed
+and all in just 29 seconds. I am still working only with the CPU. Just impressed
 with the computational power of machines these days.
+
+Have you watched the video to the end? I always find it very relaxing watching a
+computer running scripts. It's like watching the rain... although there is a lot
+of work in the background, it looks so peaceful and smooth.
 
 ## Who is the winner?
 

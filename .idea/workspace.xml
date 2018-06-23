@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="331">
-                <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+              <first_editor relative-caret-position="306">
+                <caret line="102" column="61" selection-start-line="102" selection-start-column="61" selection-end-line="102" selection-end-column="61" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -600,18 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="581">
-            <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_pages/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -624,11 +611,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="196">
-            <caret line="323" selection-start-line="323" selection-end-line="325" selection-end-column="8" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-17890">
+            <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -639,8 +626,20 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1400">
+          <first_editor relative-caret-position="-9065">
             <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-8465">
+            <caret line="323" selection-start-line="323" selection-end-line="325" selection-end-column="8" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -651,8 +650,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="331">
-            <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+          <first_editor relative-caret-position="306">
+            <caret line="102" column="61" selection-start-line="102" selection-start-column="61" selection-end-line="102" selection-end-column="61" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
