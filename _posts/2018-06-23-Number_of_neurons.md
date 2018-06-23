@@ -95,8 +95,8 @@ Let's run it...
   <source src="/images/NON/main_py_non.mp4" type="video/mp4">
 </video>
 
-400,000 neural network with multliple layers and neurons, forward and backpropagation,
-and all in just 30 seconds. I am still working only with the CPU. Still impressed
+400,000 neural networks with multliple layers and neurons, forward and backpropagation,
+and all in just 30 seconds. I am still working only with the CPU. Just impressed
 with the computational power of machines these days.
 
 ## Who is the winner?
