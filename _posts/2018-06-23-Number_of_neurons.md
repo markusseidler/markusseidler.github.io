@@ -243,8 +243,8 @@ ax.set_ylabel ("Layer 3")
 ax.set_zlabel ("Training Cost")
 
 #rotating the plot along its x and y axis
-for j in range (5, 61,15):
-    for i in range (0, 361, 3):
+for j in range (5, 51,15):
+    for i in range (0, 361, 2):
                     ax.view_init (elev=j, azim=i)
                     plt.draw()
                     plt.pause(0.001)
