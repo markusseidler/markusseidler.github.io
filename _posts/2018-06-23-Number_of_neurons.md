@@ -101,7 +101,7 @@ and all in just 29 seconds. I am still working only with the CPU. Just impressed
 with the computational power of machines these days.
 
 Have you watched the video to the end? I always find it very relaxing watching a
-computer running scripts. It's like watching the rain... although there is a lot
+computer running a script. It's like watching the rain... although there is a lot
 of work in the background, it looks so peaceful and smooth.
 
 ## Who is the winner?
@@ -152,6 +152,23 @@ Let's look at the top and bottom 10 results of our training.
 alt="Top and Bottom 10 results">
 
 
+You can see that the top 10 all achieved good results. In practice, we would
+round the outputs to the closest integer and get 0 or 1. However, in this cost, I
+kept in unrounded to see the difference in output compared to cost. The best
+results could be achieved with 3 or 4 neurons in the first hidden layer. The
+second layer could have more neurons but the first layer was rather small.
+
+We can also see for this simple problem and the small amount of observations
+(only 4), complex hidden layers with up to 20 neurons failed to produce meaningful
+training results.
+
+##Show me the graph
+
+Finally, I thought it would be very interesting to plot the training results of
+the various architecture in a 3D plot. By doing this, we could see where the results
+started to improve and at what number of neurons the network failed to perform.
+
+    
 
 
 
