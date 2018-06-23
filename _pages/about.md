@@ -73,7 +73,7 @@ hints for your own journey.
     <li>Khan Academy: Lecture series about Vectors</li>
     <li>Brandon Rohrer: CNN and Deep Learning</li>
     <li>Sentdex: Python Basics, Matplotlib, Numpy, Pandas, Scikit-learn</li>
-    <li>Welch Labs: Neural Networks Demystified
+    <li>Welch Labs: Neural Networks Demystified</li>
 </ul>
 
 
