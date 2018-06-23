@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="392">
+              <first_editor relative-caret-position="11075">
                 <caret line="443" selection-start-line="443" selection-end-line="443" />
               </first_editor>
               <second_editor>
@@ -59,8 +59,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="560">
-                <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <first_editor relative-caret-position="475">
+                <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -678,7 +678,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="392">
+          <first_editor relative-caret-position="11075">
             <caret line="443" selection-start-line="443" selection-end-line="443" />
           </first_editor>
           <second_editor>
@@ -690,8 +690,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="560">
-            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <first_editor relative-caret-position="475">
+            <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
