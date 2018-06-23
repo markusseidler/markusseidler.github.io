@@ -218,7 +218,7 @@ Especially, a combination of neurons close to 20 resulted in a network failure.
 
 ## That's it? You can plot better than this.
 
-Really? Maybe. What if let the plot automatically rotate along its axis?
+Really? Maybe. What if we let the plot rotate along its x-axis and y-axis?
 
 Just for fun.
 
