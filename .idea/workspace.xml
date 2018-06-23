@@ -13,40 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="2018-05-02-IRCHOGSVM.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="256">
-                <caret line="505" selection-start-line="505" selection-end-line="506" selection-end-column="22" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_pages/about.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="350">
-                <caret line="14" selection-start-line="14" selection-end-line="14" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2018-06-04-FirstNN.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="475">
-                <caret line="372" selection-start-line="372" selection-end-line="372" />
+              <first_editor relative-caret-position="538">
+                <caret line="384" lean-forward="true" selection-start-line="384" selection-end-line="384" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -68,6 +40,7 @@
       <find>fehler</find>
       <find>class</find>
       <find>dataset</find>
+      <find>prop</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,6 +133,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19547872" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.14529915" />
@@ -671,8 +645,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="475">
-            <caret line="372" selection-start-line="372" selection-end-line="372" />
+          <first_editor relative-caret-position="538">
+            <caret line="384" lean-forward="true" selection-start-line="384" selection-end-line="384" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
