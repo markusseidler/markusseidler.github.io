@@ -7,7 +7,7 @@ header:
 excerpt: "Can an ANN learn the function of sine waves?"
 ---
 
-### What is the sine function?
+## What is the sine function?
 
 Sine is one the major functions in trigonometry. The sine function of a right triangle
 is the ratio of the angle-opposite side compared to the hypotenuse. Sine waves can also
@@ -48,7 +48,7 @@ therefore, a great playground for a neural network.
 <img src="{{ site.url }}{{ site.baseurl }}/images/SINE/sine_wave.jpg"
 alt="Sine Wave">
 
-### Learn it. Fast and Furious.
+## Learn it. Fast and Furious.
 
 I use my ThreeLayerNet saved in the script "ann.py" and modify only the
 execution script "main.py" for a first trial.
