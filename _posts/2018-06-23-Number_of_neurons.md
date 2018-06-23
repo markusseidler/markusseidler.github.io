@@ -162,12 +162,52 @@ We can also see for this simple problem and the small amount of observations
 (only 4), complex hidden layers with up to 20 neurons failed to produce meaningful
 training results.
 
-##Plot it. Please.
+## Plot it. Please.
 
 Finally, I thought it would be very interesting to plot the training results of
 the various architectures in a 3D plot. By doing this, we could see where the results
 started to improve and at what number of neurons the network failed to perform.
 
+For this, I added some code to my "main.py" file that plots the training results on
+the z-axis while the number of neurons in Layer 2 (the first hidden layer) are plotted on
+the x-axis and of Layer 3 are on the y-axis.
+
+```python
+
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+from mpl_toolkits.mplot3d import Axes3D
+
+#setting the figure and adding 4 subplots in 2x2 grid.
+fig = plt.figure()
+ax1 = fig.add_subplot(221, projection = "3d")
+ax2 = fig.add_subplot(222, projection = "3d")
+ax3 = fig.add_subplot(223, projection = "3d")
+ax4 = fig.add_subplot(224, projection = "3d")
+
+#iterating through the four plots
+for i in range (1,5):
+    ax = eval("ax{}".format(i))
+    ax.scatter (test_results["Neurons Layer 2"],
+            test_results["Neurons Layer 3"],
+            test_results["Training Cost"],
+            s=60, c=test_results["Training Cost"],
+            cmap=cm.viridis)
+
+    ax.set_xlabel ("Neurons Layer 2")
+    ax.set_ylabel ("Neurons Layer 3")
+    ax.set_zlabel ("Training Cost")
+
+#plotting the figure
+plt.tight_layout()
+plt.show()
+```
+
+I created four different subplots that I can show the 3D plot from various angles.
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/NON/3d plot cost.PNG"
+alt="3D plot of training cost against number of neurons">
 
 
 
