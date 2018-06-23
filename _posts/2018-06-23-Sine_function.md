@@ -14,8 +14,9 @@ is the ratio of the angle-opposite side compared to the hypotenuse. Sine can als
 be often found in nature and two of the most common observations are that sound 
 and light waves are following sine patterns.
 
-formula... 
+<img src="{{ site.url }}{{ site.baseurl }}/images/SINE/sine.jpg"
+alt="Sine Formula">
 
 For me, it describes the perfectness and harmony of a circle.
 
-graph..*[]: 
+
