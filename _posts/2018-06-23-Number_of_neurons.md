@@ -97,6 +97,45 @@ Let's run it...
   <source src="/images/NON/main_py_non.mp4" type="video/mp4">
 </video>
 
+### Who is the winner?
+
+As you can see in the video, I calculate for each combination an item I
+call cost. In the previous post, I wrote a function loss_calculation for
+ann.py and in this function I calculate "cost". The formula is a standard
+way of measuring the loss of simple classification problems.
+
+This was the python code.
+
+```python
+def loss_calculation(self):
+        self.error = self.y - self.y_est
+        self.cost = 0.5*np.sum((np.power(self.error,2)))
+        self.cost_deriv = self.y_est - self.y
+```
+
+It takes the difference between the actual and estimated output. Then, it
+calculates the power of 2 of this difference. Why power of 2? This is a simple
+mathematical trick to make sure that the difference between the two numbers is
+always positive. Finally, it sums it up across all outputs and multiplies it by
+0.5. Now, you may ask why 0.5? Well, another mathematical trick. When taking
+the derivative of this formula, bringing down the exponent 2 to the coefficient 0.5,
+results in 1 (0.5*2) and the multiplication of this formula disappears.
+
+The formula measures the distance between the actual and estimated output and
+punishes exponentially large gaps.
+
+For example,
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/NON/cost_examples.PNG"
+alt="Examples of Training Cost">
+
+You can see in the last row that an output of only ones resulted in a cost of
+almost 1. The actual output supposed to be 1,0,1,0 and in two cases the loss
+is at its maximum. Therefore, the cost are very high. The first line shows
+network estimated outputs of 0.5 for all four observations. In this case, the
+training cost are 0.5 as the distance to the actual output is smaller.
+
+
 
 
 
