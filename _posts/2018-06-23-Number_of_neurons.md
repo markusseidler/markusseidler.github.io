@@ -162,13 +162,13 @@ We can also see for this simple problem and the small amount of observations
 (only 4), complex hidden layers with up to 20 neurons failed to produce meaningful
 training results.
 
-##Show me the graph
+##Plot it. Please.
 
 Finally, I thought it would be very interesting to plot the training results of
-the various architecture in a 3D plot. By doing this, we could see where the results
+the various architectures in a 3D plot. By doing this, we could see where the results
 started to improve and at what number of neurons the network failed to perform.
 
-    
+
 
 
 
