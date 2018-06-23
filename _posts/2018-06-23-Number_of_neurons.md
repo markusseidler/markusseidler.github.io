@@ -255,6 +255,9 @@ plt.show()
 And now rotate, rotate, rotate...
 
 
+<video width="630" height="270" controls="controls">
+  <source src="/images/NON/3d plot rotation.mp4" type="video/mp4">
+</video>
 
 
 
