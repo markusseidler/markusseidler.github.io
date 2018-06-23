@@ -10,15 +10,16 @@ excerpt: "Can an ANN learn the function of sine waves?"
 ### What is the sine function?
 
 Sine is one the major functions in trigonometry. The sine function of a right triangle
-is the ratio of the angle-opposite side compared to the hypotenuse. Sine can also 
-be often found in nature and two of the most common observations with sine patterns
+is the ratio of the angle-opposite side compared to the hypotenuse. Sine waves can also
+be observed in nature and two of the most common observations with sine patterns
 are sound and light waves.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/SINE/sine.jpg"
 alt="Sine Formula">
 
-For me, it describes the perfectness and harmony of a circle. If the triangle
-follows the circumference, then the ratio changes in the pattern of a sine wave.
+If the triangle follows the circumference, then the ratio changes following
+the pattern of a sine wave. For me, it just describes the perfectness and
+harmony of a circle. Simple. Beautiful.
 
 We can very quickly code sine waves with numpy and plot them with matplotlib.
 
