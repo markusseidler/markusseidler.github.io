@@ -36,8 +36,6 @@ import timeit
 import numpy as np
 import pandas as pd
 
-
-
 start = timeit.default_timer()
 
 #This is the input matrix X with the input features A and B
@@ -97,7 +95,11 @@ Let's run it...
   <source src="/images/NON/main_py_non.mp4" type="video/mp4">
 </video>
 
-### Who is the winner?
+400,000 neural network with multliple layers and neurons, forward and backpropagation,
+and all in just 30 seconds. I am still working only with the CPU. Still impressed
+with the computational power of machines these days.
+
+## Who is the winner?
 
 As you can see in the video, I calculate for each combination an item I
 call cost. In the previous post, I wrote a function loss_calculation for
