@@ -503,9 +503,9 @@ print ("\n\tRunning time of script in seconds: \n\t", round(duration,5))
 I reiterated the Support Vector Machine Classifier (SVC) through a list
 of different penalty parameter C. The result shows that the accuracy ratio
 increases up to a C of around 20.
-
 <img src="{{ site.url }}{{ site.baseurl }}/images/IRCHOGSVM/SVM C variation.PNG"
 alt="SVM C variation">
+
 
 Based on these results, I decided to use C of 20 for the test with the full
 data set.
