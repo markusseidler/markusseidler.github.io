@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +32,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="231">
-                <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+                <caret line="66" selection-start-line="66" selection-end-line="66" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -43,12 +41,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-04-FirstNN.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-06-04-FirstNN.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="450">
-                <caret line="380" lean-forward="true" selection-start-line="380" selection-end-line="380" />
+              <first_editor relative-caret-position="200">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-06-23 number_of_neurons.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-23 number_of_neurons.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="125">
+                <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -94,6 +106,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md" />
         <option value="$PROJECT_DIR$/_pages/about.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-23 number_of_neurons.md" />
       </list>
     </option>
   </component>
@@ -213,18 +226,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="transform pic changed" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-02-IRCHOGSVM.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1500">
-            <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -665,7 +666,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="231">
-            <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <caret line="66" selection-start-line="66" selection-end-line="66" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -676,8 +677,20 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="380" lean-forward="true" selection-start-line="380" selection-end-line="380" />
+          <first_editor relative-caret-position="200">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-23 number_of_neurons.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
