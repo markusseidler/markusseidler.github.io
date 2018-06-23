@@ -49,6 +49,9 @@ alt="Sine Wave">
 
 ### Learn it. Fast and Furious.
 
+I use my ThreeLayerNet saved in the script "ann.py" and modify only the
+execution script "main.py" for a first trial.
+
 
 
 
