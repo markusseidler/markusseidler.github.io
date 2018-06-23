@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="5260">
-                <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
+              <first_editor relative-caret-position="200">
+                <caret line="8" lean-forward="true" selection-end-line="8" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -28,12 +25,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-04-FirstNN.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
+      <file leaf-file-name="2018-06-23-Sine_function.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="592">
-                <caret line="438" column="30" lean-forward="true" selection-start-line="438" selection-start-column="30" selection-end-line="438" selection-end-column="30" />
+              <first_editor relative-caret-position="125">
+                <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -84,6 +81,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-06-23 number_of_neurons.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md" />
       </list>
     </option>
   </component>
@@ -203,18 +201,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="transform pic changed" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-28-IRC.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -651,11 +637,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="5260">
-            <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
+          <first_editor relative-caret-position="592">
+            <caret line="438" column="30" lean-forward="true" selection-start-line="438" selection-start-column="30" selection-end-line="438" selection-end-column="30" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -663,11 +649,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="592">
-            <caret line="438" column="30" lean-forward="true" selection-start-line="438" selection-start-column="30" selection-end-line="438" selection-end-column="30" />
+          <first_editor relative-caret-position="200">
+            <caret line="8" lean-forward="true" selection-end-line="8" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
