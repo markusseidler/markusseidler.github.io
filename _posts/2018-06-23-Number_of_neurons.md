@@ -216,7 +216,7 @@ cost are rather low for any amount of neurons in layer 3. However, the plots on 
 show that once the amount of neurons in layer 2 exceeded 10 that the training cost rises.
 Especially, a combination of neurons close to 20 resulted in a network failure.
 
-## That's it? You can plot better that this.
+## That's it? You can plot better than this.
 
 Really? Maybe. What if let the plot automatically rotate along its axis?
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="2018-06-23-Number_of_neurons.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-06-23-Number_of_neurons.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="200">
-                <caret line="8" selection-end-line="8" />
+              <first_editor relative-caret-position="196">
+                <caret line="218" column="38" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -27,12 +27,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-23-Sine_function.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-06-23-Sine_function.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="275">
-                <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+              <first_editor relative-caret-position="500">
+                <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -59,6 +59,7 @@
       <find>machine</find>
       <find>video</find>
       <find>vid</find>
+      <find>better</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,8 +83,8 @@
         <option value="$PROJECT_DIR$/_pages/about.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-23 number_of_neurons.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md" />
       </list>
     </option>
   </component>
@@ -651,11 +652,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="8" selection-end-line="8" />
+          <first_editor relative-caret-position="500">
+            <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -663,11 +664,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="275">
-            <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <first_editor relative-caret-position="196">
+            <caret line="218" column="38" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
