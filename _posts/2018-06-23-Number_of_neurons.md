@@ -220,6 +220,44 @@ Especially, a combination of neurons close to 20 resulted in a network failure.
 
 Really? Maybe. What if let the plot automatically rotate along its axis?
 
+Just for fun.
+
+```python
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+from mpl_toolkits.mplot3d import Axes3D
+
+#setting the figure and with one subplot
+fig = plt.figure(figsize = (6, 6))
+ax = fig.add_subplot(221, projection = "3d")
+
+#creating the plot
+ax.scatter (test_results["Neurons Layer 2"],
+            test_results["Neurons Layer 3"],
+            test_results["Training Cost"],
+            s=60, c=test_results["Training Cost"],
+            cmap=cm.viridis)
+
+ax.set_xlabel ("Layer 2")
+ax.set_ylabel ("Layer 3")
+ax.set_zlabel ("Training Cost")
+
+#rotating the plot along its x and y axis
+for j in range (5, 61,15):
+    for i in range (0, 361, 3):
+                    ax.view_init (elev=j, azim=i)
+                    plt.draw()
+                    plt.pause(0.001)
+#plotting the figure
+plt.show()
+```
+
+And now rotate, rotate, rotate...
+
+
+
+
+
 
 
 
