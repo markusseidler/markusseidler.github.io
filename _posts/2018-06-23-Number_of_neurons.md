@@ -209,6 +209,16 @@ I created four different subplots that I can show the 3D plot from various angle
 <img src="{{ site.url }}{{ site.baseurl }}/images/NON/3d plot cost.PNG"
 alt="3D plot of training cost against number of neurons">
 
+The yellow dots indicate the highest cost, values of up to 1 while green dots show
+combinations with cost of around 0.5. Best combinations are the dark dots on the ground,
+close to training cost of 0. You can see in the plots on the right side, that the training
+cost are rather low for any amount of neurons in layer 3. However, the plots on the left side
+show that once the amount of neurons in layer 2 exceeded 10 that the training cost rises.
+Especially, a combination of neurons close to 20 resulted in a network failure.
+
+## That's it? You can plot better that this.
+
+Really? Maybe. What if let the plot automatically rotate along its axis?
 
 
 

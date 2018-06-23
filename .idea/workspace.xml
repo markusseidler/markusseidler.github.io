@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1181">
-                <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
+              <first_editor relative-caret-position="331">
+                <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -650,8 +650,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Number_of_neurons.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1181">
-            <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
+          <first_editor relative-caret-position="331">
+            <caret line="213" column="29" selection-start-line="213" selection-start-column="29" selection-end-line="213" selection-end-column="29" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
