@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg" />
+    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
+      <change beforePath="$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
+              <first_editor relative-caret-position="475">
+                <caret line="372" selection-start-line="372" selection-end-line="372" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -158,18 +160,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19547872" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.14529915" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -670,8 +671,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-04-FirstNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
+          <first_editor relative-caret-position="475">
+            <caret line="372" selection-start-line="372" selection-end-line="372" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
