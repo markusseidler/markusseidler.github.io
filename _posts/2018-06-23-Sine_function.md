@@ -18,9 +18,9 @@ are sound and light waves.
 alt="Sine Formula">
 
 For me, it describes the perfectness and harmony of a circle. If the triangle
-follows the circumference the ratio changes in the pattern of a sine wave.
+follows the circumference, then the ratio changes in the pattern of a sine wave.
 
-We can very quick code sine waves with numpy.
+We can very quickly code sine waves with numpy and plot them with matplotlib.
 
 ```python
 import numpy as np
@@ -41,10 +41,14 @@ ax.spines['bottom'].set_position('center')
 plt.savefig("sine_wave.jpg")
 ```
 
-The sine function looks like this:
+This is the plot of the sine function. It is clearly a non-linear function and
+therefore, a great playground for a neural network.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/SINE/sine_wave.jpg"
 alt="Sine Wave">
+
+### Learn it. Fast and Furious.
+
 
 
 
