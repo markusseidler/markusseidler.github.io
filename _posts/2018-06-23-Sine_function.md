@@ -383,9 +383,9 @@ It looks like a combination of six neurons in the first hidden layer (layer 2)
 and 14 or 16 neurons in the second hidden layer (layer 3) produced the best results.
 Interestingly, a network with fewer neurons in layer 3 delivered inferior results.
 
-I decided to go ahead with 6 and 14 as combination for my further analysis.
+I decided to go ahead with 6/16 as combination for my further analysis.
 
-### Just numbers. Can we again see some graphs?
+## Just numbers. Can we again see some graphs?
 
 
 
