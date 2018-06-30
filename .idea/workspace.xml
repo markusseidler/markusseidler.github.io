@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md" afterDir="false" />
-    </list>
+    <list default="true" id="3d9030f7-d305-4c40-aee8-22e55483695b" name="Default" comment="about2.jpg" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="385">
-                <caret line="381" column="30" selection-start-line="381" selection-start-column="30" selection-end-line="381" selection-end-column="30" />
+              <first_editor relative-caret-position="581">
+                <caret line="389" selection-start-line="389" selection-end-line="389" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -668,8 +666,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-23-Sine_function.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="385">
-            <caret line="381" column="30" selection-start-line="381" selection-start-column="30" selection-end-line="381" selection-end-column="30" />
+          <first_editor relative-caret-position="581">
+            <caret line="389" selection-start-line="389" selection-end-line="389" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

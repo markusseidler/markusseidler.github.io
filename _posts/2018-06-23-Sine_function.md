@@ -373,10 +373,10 @@ Quite some work to do. I hope our friend was not too angry about it...
 These are the results of the Grid Search:
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/SINE/top15.jpg"
+<img src="{{ site.url }}{{ site.baseurl }}/images/SINE/top15.PNG"
 alt="Top 15 Results of Grid Search">
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/SINE/bottom15.jpg"
+<img src="{{ site.url }}{{ site.baseurl }}/images/SINE/bottom15.PNG"
 alt="Bottom 15 Results of Grid Search">
 
 It looks like a combination of six neurons in the first hidden layer (layer 2)
